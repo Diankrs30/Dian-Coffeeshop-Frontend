@@ -419,3 +419,146 @@ footer {
   color: #6a4029;
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  header {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+  .promo {
+    width: 100%;
+    border: none;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+  .coupon-item {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+  }
+  .wrapper-coupon {
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+  }
+  .img-coupon {
+    width: 60px;
+    height: 60px;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .text-title-promo {
+    width: 120px;
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 5px;
+  }
+  .text-desc-promo,
+  .text-desc-promo1 {
+    display: none;
+  }
+  .apply-coupon {
+    width: 180px;
+    font-size: 14px;
+    height: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+  }
+  .text-term {
+    margin-top: 40px;
+  }
+  .product-lists {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+  }
+  .nav-product {
+    justify-content: space-between;
+  }
+  .product-list {
+    grid-template-columns: auto auto auto;
+    row-gap: 25px;
+    column-gap: 25px;
+  }
+  .info-price-cutted {
+    font-size: 12px;
+  }
+  footer {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .other-info {
+    padding-left: 70px;
+  }
+  .ul,
+  .info {
+    font-size: 14px;
+  }
+  .ul {
+    line-height: 30px;
+  }
+}
+@media (max-width: 480px) {
+  header {
+    width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .logo {
+    width: 25px;
+    height: 27px;
+  }
+  .text-logo {
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .nav-bar, .product {
+    font-size: 14px;
+  }
+  main {
+    width: 480px;
+    margin: 0px;
+    padding: 0px;
+  }
+  .product-lists {
+    width: 100%;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .product-list {
+    grid-template-columns: auto auto;
+    row-gap: 25px;
+    column-gap: 25px;
+  }
+  .category, .category-fav {
+    font-size: 14px;
+  }
+  .category-fav {
+    padding: 0px;
+    width: 130px;
+  }
+  footer {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .other-info {
+    padding-left: 10px;
+  }
+  .engage {
+    padding-left: 10px;
+  }
+}
