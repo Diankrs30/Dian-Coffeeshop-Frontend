@@ -35,7 +35,7 @@ Dian coffee shop is a web application that sells foods, coffee, and beverage. wi
 Clone this repository by run the following code:
 
 ```
-$ git clone https://github.com/Diankrs30/Dian-coffeshop.git
+$ git clone https://github.com/Diankrs30/Dian-Coffeeshop-Frontend.git
 ```
 
 ### 2. Open VS Code
