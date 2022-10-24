@@ -52,11 +52,11 @@ Right Click _index.html_ then choose **Open With Live Server**
 ## Preview
 
 <div style="display: grid; grid-template-areas: 'a b'; row-gap: 10px; column-gap: 10px">
-<img src="asset/pitcure/home.png" style="width: 50%; height: auto;"></img>
-<img src="asset/pitcure/signup.png" style="width: 50%; height: auto;"></img>
-<img src="asset/pitcure/login.png" style="width: 50%; height: auto;"></img>
-<img src="asset/pitcure/profile.png" style="width: 50%; height: auto;"></img>
-<img src="asset/pitcure/product.png" style="width: 50%; height: auto;"></img>
+<img src="asset/picture/home.png" style="width: 50%; height: auto;"></img>
+<img src="asset/picture/signup.png" style="width: 50%; height: auto;"></img>
+<img src="asset/picture/login.png" style="width: 50%; height: auto;"></img>
+<img src="asset/picture/profile.png" style="width: 50%; height: auto;"></img>
+<img src="asset/picture/product.png" style="width: 50%; height: auto;"></img>
 </div>
 
 ## Deploy - Netlify
