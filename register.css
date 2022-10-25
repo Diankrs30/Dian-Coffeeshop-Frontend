@@ -211,6 +211,7 @@ input {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+  text-decoration: none;
   font-weight: 700;
   font-size: 20px;
   color: #ffffff;
