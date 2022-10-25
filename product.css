@@ -507,6 +507,7 @@ footer {
     font-size: 12px;
   }
   footer {
+    width: 100%;
     padding-right: 60px;
     padding-left: 60px;
   }
