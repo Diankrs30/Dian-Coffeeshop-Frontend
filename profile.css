@@ -481,7 +481,16 @@ footer {
 }
 
 @media (max-width: 480px) {
+  body {
+    width: 480px;
+  }
+  .container {
+    width: 480px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   main {
+    width: 480px;
     background-image: none;
     padding-right: 0px;
     padding-left: 0px;
@@ -511,7 +520,7 @@ footer {
   }
   .btn,
   .btn2 {
-    width: 40%;
+    /* width: 40%; */
     font-size: 14px;
   }
   .btn2 {
@@ -571,6 +580,7 @@ footer {
     margin-bottom: 30px;
   }
   footer {
+    width: 480px;
     padding: 30px;
     padding-top: 50px;
     margin-top: 50px;
