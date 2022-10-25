@@ -524,7 +524,7 @@ footer {
 }
 @media (max-width: 480px) {
   header {
-    width: 480px;
+    /* width: 480px; */
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 30px;
@@ -542,7 +542,7 @@ footer {
     font-size: 14px;
   }
   main {
-    width: 480px;
+    /* width: 480px; */
     margin: 0px;
     padding: 0px;
   }
@@ -565,7 +565,7 @@ footer {
     width: 130px;
   }
   footer {
-    width: 480px;
+    /* width: 480px; */
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 50px;
