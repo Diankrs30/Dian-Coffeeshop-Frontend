@@ -570,11 +570,14 @@ footer {
     padding-right: 40px;
     padding-bottom: 50px;
     padding-top: 50px;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
   .other-info {
+    width: 100%;
     margin-top: 30px;
     padding-left: 0px;
+    padding-bottom: 40px;
+    justify-content: space-around;
   }
   .engage {
     padding-left: 10px;

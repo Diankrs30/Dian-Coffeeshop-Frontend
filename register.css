@@ -328,7 +328,7 @@ footer {
   }
   .footer-content {
     width: 480px;
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: flex-start;
     padding-right: 25px;
     padding-bottom: 50px;

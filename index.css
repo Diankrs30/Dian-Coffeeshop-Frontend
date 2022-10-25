@@ -113,7 +113,7 @@ header {
   width: 60%;
   height: 45px;
   background: #ffba33;
-  padding-top: 10px; 
+  padding-top: 10px;
   padding-left: 40px;
   border-style: none;
   border-radius: 50px;
@@ -562,3 +562,60 @@ footer {
 .promo {
   width: 30%;
 }
+
+@media (max-width: 480px) {
+  body {
+    width: 480px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .text-logo {
+    font-size: 16px;
+  }
+  .other-content {
+    flex-direction: column;
+  }
+  .signup {
+    padding: 0px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .banner {
+    padding: 50px;
+  }
+  .text-banner {
+    width: 100%;
+    font-size: 40px;
+  }
+  .text-desc-banner {
+    width: 100%;
+    margin: 0px;
+  }
+  .btn-banner {
+    width: 40%;
+  }
+  .introduce {
+    padding: 0px;
+  }
+  .coffeeshop {
+    width: 90%;
+    margin: auto;
+    margin-top: -100px;
+  }
+  .informations {
+    margin: 0px;
+    padding: 30px;
+  }
+  .img-team {
+    display: none;
+  }
+  .introduce2 {
+    padding: 0px;
+  }
+  .favorite {
+    padding: 30px;
+  }
+}
+
