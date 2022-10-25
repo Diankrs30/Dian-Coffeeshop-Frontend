@@ -64,6 +64,19 @@ header {
   color: #4f5665;
 }
 
+.product {
+  font-weight: 400;
+  font-size: 16px;
+  color: #4f5665;
+  text-decoration: none;
+}
+
+.product:active {
+  font-weight: 700;
+  font-size: 16px;
+  color: #6a4029;
+}
+
 .hover:active {
   font-weight: 700;
 }
@@ -85,9 +98,11 @@ header {
   height: 45px;
   background-color: #ffffff;
   border: none;
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   color: #0b132a;
+  padding-top: 10px;
 }
 
 .login:active {
@@ -98,8 +113,11 @@ header {
   width: 60%;
   height: 45px;
   background: #ffba33;
+  padding-top: 10px; 
+  padding-left: 40px;
   border-style: none;
   border-radius: 50px;
+  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   color: #6a4029;
